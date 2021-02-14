@@ -1,0 +1,1 @@
+This folder contains screenshots of the team's Trello board, taken at each meeting as the project progressed

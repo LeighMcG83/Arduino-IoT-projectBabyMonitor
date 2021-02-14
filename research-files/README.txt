@@ -1,0 +1,1 @@
+This folder contains sub-folders seperating the diffeent areas of research the team explored during the project
