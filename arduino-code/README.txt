@@ -1,0 +1,1 @@
+This folder contains our Arduino code which we will write and re-write over the course of the project
