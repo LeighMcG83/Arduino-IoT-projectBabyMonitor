@@ -1,0 +1,1 @@
+This folder contains details of our design phase of the Baby Monitor project, from early conceptual design sketches, to accurate schematic drawings
