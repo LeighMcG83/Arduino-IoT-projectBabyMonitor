@@ -1,0 +1,15 @@
+We have 3 options to connect our Arduino to API to monitor our data from the Arduino which will be our data provider from the different equipments we are using in our project . To get the data from our Arduino we can use one of the following 3 options: Arduino IOT cloud , Blynk and Making our own website.
+
+
+Pushing Box:
+For our minor project we are going to use the pushing box to monitor the data about the child and print the status on a line graph or a pie chart and we can get the sum and average of the values we are getting.
+
+Blynk  & Arduino IOT cloud:
+Which are two powerful services that allow anyone to create IoT applications, they were designed for the internet of things . they can control hardware remotely ,they can display sensor data, they can store data, visualize it and do many other cool things .
+Negative points:
+ We only have 100 notifications which most of them will be wasted in the prototyping process then we will have to wait till next day or  pay for more notifications.
+
+
+
+Making our own website :
+We can make our own website to control the Arduino and get the data from the Arduino to the website using HTML ,CSS and C++, by making variables in C++ and add them in the HTML code .We can adjust the look of our website the way we want and 
