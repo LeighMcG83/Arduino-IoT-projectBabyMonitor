@@ -1,3 +1,11 @@
+/* 
+  Date created : 
+  Author       :
+  Project Title:
+  References   :
+*/
+
+
 const int LED=3;  //Led to approve that the first event happened 
 const long interval=1000;  //interval at which to blink (miliseconds)
 const long limit=2000;    //time limit -after which user will get a message 
