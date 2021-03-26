@@ -1,13 +1,13 @@
 /* 
-  Date created : 
-  Author       :
-  Project Title:
-  References   :
+  Date created : 16/03/21
+  Author       : Abdul Rahman Saif AlAdhubi
+  Project Title: CradleCare Baby Monitor
+  Filename     : BabyMonitor_FinalCode.ino
 */
 
 
-const int LED=3;  //Led to approve that the first event happened 
-const long interval=1000;  //interval at which to blink (miliseconds)
+const int LED=3;          //Led to approve that the first event happened 
+const long interval=1000; //interval at which to blink (miliseconds)
 const long limit=2000;    //time limit -after which user will get a message 
 const int led2=4;         //Led to approve that the second event happened 
 const int led3=5;         //Led to approve that the third event happened 
@@ -155,9 +155,9 @@ void loop() {
 sensorValue=0;
 delay(1000);
   // put your main code here, to run repeatedly:
-  sensorValue=analogRead(sound);   //Reading the sound sensor
+  sensorValue=analogRead(sound);          //Reading the sound sensor
   tempValue=analogRead(temp);
-  if(sensorValue>=200){            //Checking if sensor value is greater than 200
+  if(sensorValue>=200){                   //Checking if sensor value is greater than 200
     Serial.println("Sensor value :");
     Serial.println(sensorValue);
     timer=timer+interval;     //if the sensor value is >200 it will add an interval which is equal to 1000
@@ -234,8 +234,8 @@ Serial.println("event 2 now");
   }
   Serial.flush();
   String UploadMessage;
-//  Serial.println("\n Uploaded temp value: ");
-//  Serial.print(sensorValue);
+//  Serial.println("\n Uploaded temp value: "); //implement in major project
+//  Serial.print(sensorValue);                  //implement in major project
    GameOfThrones();
     delay(4000);
     if(sensorValue<200){
